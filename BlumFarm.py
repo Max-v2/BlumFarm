@@ -19,16 +19,15 @@ print(f"Copyright (c) 2024 Max Álvarez")
 
 print("\nSeleccione el idioma:")
 print("1. English")
-print("2. Русский")
-print("3. Español")
+print("2. Español")
 
 while True:
     try:
         language_choice = int(input("Ingrese el número de su idioma: "))
-        if language_choice in [1, 2, 3]:
+        if language_choice in [1, 2]:
             break
         else:
-            print("Selección incorrecta. Por favor, ingrese 1, 2 o 3.")
+            print("Selección incorrecta. Por favor, ingrese 1 o 2.")
     except ValueError:
         print("Entrada incorrecta. Por favor, ingrese un número.")
 
@@ -39,12 +38,6 @@ if language_choice == 1:
     pause_message = "Pause\nPress 'q' again to continue"
     continue_message = "Continue working."
 elif language_choice == 2:
-    window_input = "\nВведите название окна (1 - TelegramDesktop): "
-    window_not_found = "[❌] | Окно - {} не найдено!"
-    window_found = "[✅] | Окно найдено - {}\nНажмите 'q' для паузы."
-    pause_message = "Пауза \nНажмите снова 'q' что бы продолжить"
-    continue_message = 'Продолжение работы.'
-elif language_choice == 3:
     window_input = "\nIngrese el nombre de la ventana (1 - TelegramDesktop): "
     window_not_found = "[❌] | Ventana - {} no encontrada!"
     window_found = "[✅] | Ventana encontrada - {}\nPresione 'q' para pausar."
