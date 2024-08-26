@@ -12,8 +12,8 @@ Este proyecto es una herramienta automatizada para interactuar con la ventana de
 1. Clona este repositorio:
 
     ```bash
-    git clone https://tu-repositorio-url.git
-    cd BlumFarmProject
+    git clone https://github.com/Max-v2/BlumFarm_v2.0.git
+    cd BlumFarm_v2.0
     ```
 
 2. Crea y activa un entorno virtual:
@@ -61,17 +61,5 @@ Este proyecto es una herramienta automatizada para interactuar con la ventana de
 
 - Asegúrate de tener todas las dependencias instaladas correctamente antes de ejecutar el script.
 - Si encuentras algún problema con la instalación de `pyscreeze`, puedes instalarlo manualmente usando `pip install pyscreeze`.
-
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tus cambios a tu rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
-## Licencia
 
 Este proyecto está licenciado bajo los términos de la licencia MIT. Para más detalles, consulta el archivo LICENSE.
