@@ -46,8 +46,7 @@ Este proyecto es una herramienta automatizada para interactuar con la ventana de
 
 2. Selecciona el idioma en el que deseas interactuar:
     - 1. English
-    - 2. Русский
-    - 3. Español
+    - 2. Español
 
 3. Ingresa el nombre de la ventana con la que deseas interactuar. Por ejemplo, para TelegramDesktop, ingresa `1`.
 
