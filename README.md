@@ -1,6 +1,6 @@
 # BlumFarmProject
 
-Este proyecto es una herramienta automatizada para interactuar con ventanas específicas en tu sistema.
+Este proyecto es una herramienta automatizada para interactuar con la ventana de telegram y farmeo de blum
 
 ## Requisitos
 
