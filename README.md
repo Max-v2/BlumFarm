@@ -12,7 +12,7 @@ BlumFarm Automation es una aplicación diseñada para automatizar la interacció
 Sigue estos pasos para instalar la aplicación BlumFarm:
 
 1. **Descargar el Instalador:**
-   Descarga el instalador `BlumFarm_Installer.exe` desde el enlace proporcionado.
+   Descarga el instalador `BlumFarm_Installer.exe` desde revace v2.0.
 
 2. **Ejecutar el Instalador:**
    Haz doble clic en el archivo `BlumFarm_Installer.exe` para iniciar el proceso de instalación.
