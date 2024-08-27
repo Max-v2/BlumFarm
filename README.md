@@ -70,6 +70,7 @@ Para desinstalar la aplicación BlumFarm Automation:
 
 Si tienes alguna pregunta o necesitas ayuda, por favor contacta conmigo.
 
+<num>hola<num>
 ---
 
 © 2024 Max-v2. Todos los derechos reservados.
