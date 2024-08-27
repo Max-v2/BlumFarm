@@ -3,29 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Elegante y Responsive</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Donaciones en Cripto</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .donation-address {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+
+        .donation-address img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .donation-address code {
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+            display: block;
+            margin-top: 10px;
+            word-wrap: break-word;
+        }
+
+        @media (max-width: 600px) {
+            .donation-address img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .donation-address code {
+                font-size: 0.9em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Página Elegante</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Bienvenido a Nuestra Página</h2>
-            <p>Este es un ejemplo de una página web elegante y responsive.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Mi Página Elegante. Todos los derechos reservados.</p>
-    </footer>
+    <div class="container">
+        <h1>Apoya nuestro proyecto con donaciones en criptomonedas</h1>
+        <p>Escanea el código QR o copia la dirección de tu criptomoneda preferida para donar.</p>
+        
+        <div class="donation-address">
+            <h2>Bitcoin (BTC)</h2>
+            <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=tu_direccion_btc" alt="QR Code Bitcoin">
+            <p>Dirección: <code>tu_direccion_btc</code></p>
+        </div>
+        
+        <div class="donation-address">
+            <h2>Ethereum (ETH)</h2>
+            <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=tu_direccion_eth" alt="QR Code Ethereum">
+            <p>Dirección: <code>tu_direccion_eth</code></p>
+        </div>
+        
+        <!-- Puedes agregar más criptomonedas aquí -->
+    </div>
 </body>
 </html>
