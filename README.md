@@ -1,64 +1,76 @@
-# BlumFarmProject
+# BlumFarm Automation
 
-Este proyecto es una herramienta automatizada para interactuar con la ventana de telegram y farmeo de blum
+BlumFarm Automation es una aplicación diseñada para automatizar la interacción con ventanas específicas, como TelegramDesktop. Esta guía te ayudará a instalar y usar la aplicación.
 
-## Requisitos
+## Requisitos del Sistema
 
-- Python 3.x
-- pip (gestor de paquetes de Python)
+- Windows 7 o superior
+- Conexión a Internet para descargar el instalador
 
 ## Instalación
 
-1. Clona este repositorio:
+Sigue estos pasos para instalar la aplicación BlumFarm Automation:
 
-    ```bash
-    git clone https://github.com/Max-v2/BlumFarm_v2.0.git
-    cd BlumFarm_v2.0
-    ```
+1. **Descargar el Instalador:**
+   Descarga el instalador `BlumFarmInstaller.exe` desde el enlace proporcionado.
 
-2. Crea y activa un entorno virtual:
+2. **Ejecutar el Instalador:**
+   Haz doble clic en el archivo `BlumFarmInstaller.exe` para iniciar el proceso de instalación.
 
-    En Windows:
-    ```bash
-    python -m venv venv
-    .\venv\Scripts\activate
-    ```
+3. **Seguir el Asistente de Instalación:**
+   - Selecciona el idioma de instalación (Inglés o Español).
+   - Lee y acepta los términos y condiciones.
+   - Selecciona la carpeta de destino para la instalación.
+   - Haz clic en "Instalar" para comenzar la instalación.
 
-    En macOS y Linux:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
+4. **Finalizar la Instalación:**
+   Una vez completada la instalación, puedes elegir ejecutar la aplicación inmediatamente o cerrar el asistente.
 
-3. Instala las dependencias necesarias:
+## Uso de la Aplicación
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. **Abrir la Aplicación:**
+   Abre la aplicación BlumFarm desde el acceso directo creado en el escritorio o desde el menú de inicio.
 
-## Uso
+2. **Seleccionar el Idioma:**
+   Al iniciar la aplicación, se te pedirá que selecciones el idioma en el que deseas interactuar:
+   - 1. English
+   - 2. Español
 
-1. Ejecuta el script principal:
+3. **Ingresar el Nombre de la Ventana:**
+   Ingresa el nombre de la ventana con la que deseas interactuar. Por ejemplo:
+   - Para TelegramDesktop, ingresa `1`.
+   - Para KotatogramDesktop, ingresa `2`.
 
-    ```bash
-    python BlumFarm.py
-    ```
+4. **Automatización:**
+   La aplicación buscará la ventana especificada y te notificará si la encuentra o no:
+   - Si la ventana es encontrada, verás un mensaje de confirmación.
+   - Si la ventana no es encontrada, verás un mensaje de error.
 
-2. Selecciona el idioma en el que deseas interactuar:
-    - 1. English
-    - 2. Español
+5. **Control de la Automatización:**
+   - Para pausar la interacción, presiona la tecla `q`.
+   - Para continuar, presiona `q` nuevamente.
+   - Para terminar la aplicación, presiona la tecla `x`.
 
-3. Ingresa el nombre de la ventana con la que deseas interactuar. Por ejemplo, para TelegramDesktop, ingresa `1`.
+## Desinstalación
 
-4. El script buscará la ventana especificada y te notificará si la encuentra o no:
-    - Si la ventana es encontrada, verás un mensaje de confirmación.
-    - Si la ventana no es encontrada, verás un mensaje de error.
+Para desinstalar la aplicación BlumFarm Automation:
 
-5. Para pausar la interacción, presiona la tecla `q`. Para continuar, presiona `q` nuevamente y para teminar, presiona la tecla `x`
+1. **Abrir el Panel de Control:**
+   Ve al Panel de Control de Windows.
 
-## Notas
+2. **Seleccionar "Programas y Características":**
+   Haz clic en "Desinstalar un programa" bajo la categoría "Programas".
 
-- Asegúrate de tener todas las dependencias instaladas correctamente antes de ejecutar el script.
-- Si encuentras algún problema con la instalación de `pyscreeze`, puedes instalarlo manualmente usando `pip install pyscreeze`.
+3. **Seleccionar BlumFarm Automation:**
+   Busca "BlumFarm Automation" en la lista de programas instalados, selecciónalo y haz clic en "Desinstalar".
 
-Este proyecto está licenciado bajo los términos de la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+4. **Seguir el Asistente de Desinstalación:**
+   Sigue las instrucciones del asistente para completar la desinstalación.
+
+## Soporte
+
+Si tienes alguna pregunta o necesitas ayuda, por favor contacta con nuestro soporte técnico en [soporte@tuempresa.com](mailto:soporte@tuempresa.com).
+
+---
+
+© 2024 Max Álvarez. Todos los derechos reservados.
