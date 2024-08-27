@@ -1,6 +1,6 @@
 # BlumFarm Automation
 
-BlumFarm Automation es una aplicación diseñada para automatizar la interacción con ventanas específicas, como TelegramDesktop. Esta guía te ayudará a instalar y usar la aplicación.
+BlumFarm Automation es una aplicación diseñada para automatizar la interacción con ventanas específicas, como TelegramDesktop y farmeo de blum. Esta guía te ayudará a instalar y usar la aplicación.
 
 ## Requisitos del Sistema
 
@@ -9,13 +9,13 @@ BlumFarm Automation es una aplicación diseñada para automatizar la interacció
 
 ## Instalación
 
-Sigue estos pasos para instalar la aplicación BlumFarm Automation:
+Sigue estos pasos para instalar la aplicación BlumFarm:
 
 1. **Descargar el Instalador:**
-   Descarga el instalador `BlumFarmInstaller.exe` desde el enlace proporcionado.
+   Descarga el instalador `BlumFarm_Installer.exe` desde el enlace proporcionado.
 
 2. **Ejecutar el Instalador:**
-   Haz doble clic en el archivo `BlumFarmInstaller.exe` para iniciar el proceso de instalación.
+   Haz doble clic en el archivo `BlumFarm_Installer.exe` para iniciar el proceso de instalación.
 
 3. **Seguir el Asistente de Instalación:**
    - Selecciona el idioma de instalación (Inglés o Español).
@@ -39,7 +39,6 @@ Sigue estos pasos para instalar la aplicación BlumFarm Automation:
 3. **Ingresar el Nombre de la Ventana:**
    Ingresa el nombre de la ventana con la que deseas interactuar. Por ejemplo:
    - Para TelegramDesktop, ingresa `1`.
-   - Para KotatogramDesktop, ingresa `2`.
 
 4. **Automatización:**
    La aplicación buscará la ventana especificada y te notificará si la encuentra o no:
@@ -69,8 +68,8 @@ Para desinstalar la aplicación BlumFarm Automation:
 
 ## Soporte
 
-Si tienes alguna pregunta o necesitas ayuda, por favor contacta con nuestro soporte técnico en [soporte@tuempresa.com](mailto:soporte@tuempresa.com).
+Si tienes alguna pregunta o necesitas ayuda, por favor contacta conmigo.
 
 ---
 
-© 2024 Max Álvarez. Todos los derechos reservados.
+© 2024 Max-v2. Todos los derechos reservados.
