@@ -15,7 +15,7 @@ from pynput.mouse import Button, Controller
 mouse = Controller()
 time.sleep(0.5)
 
-print(f"Copyright (c) 2024 Max Álvarez")
+print(f"Copyright (c) 2024 Max")
 
 print("\nSeleccione el idioma:")
 print("1. English")
