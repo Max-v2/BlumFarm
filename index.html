@@ -64,19 +64,29 @@
             }
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Si te encanto la el autofarm puedes apoyarno para crear mas app por bien de la comunidad</h1>
+        <h1>Apoya nuestro proyecto con donaciones en criptomonedas</h1>
+        <p>Tu apoyo es fundamental para que podamos continuar con nuestro proyecto. Las donaciones en criptomonedas nos permiten mantener nuestra independencia y seguir ofreciendo contenido de calidad. ¡Gracias por tu generosidad!</p>
+        <p>Escanea el código QR o copia la dirección de tu criptomoneda preferida para donar.</p>
         
         <div class="donation-address">
-            <h2>USDT</h2>
-            <h3>RED (USDT-ERC20)</h3>
-            <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=ethereum:0xbf71dcb2cf9a33e6a1fa96058bde68fb9acea578" alt="QR Code USDT">
+            <h2>USDT (Tether)</h2>
+            <div id="qrcode"></div>
             <p>Dirección: <code>0xbf71dcb2cf9a33e6a1fa96058bde68fb9acea578</code></p>
         </div>
         
         <!-- Puedes agregar más criptomonedas aquí -->
     </div>
+
+    <script>
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "ethereum:0xbf71dcb2cf9a33e6a1fa96058bde68fb9acea578",
+            width: 200,
+            height: 200
+        });
+    </script>
 </body>
 </html>
