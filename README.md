@@ -1,6 +1,6 @@
 # BlumFarm
 
-Esta aplicion es un bot que juega automáticamente al juego de Blum Crypto en Telegram. El juego consiste en recolectar copos verdes en un tiempo específico sin tocar las bombas y los hielos. El objetivo es crear un script que pueda jugar al juego de manera efectiva y eficiente.
+Esta aplicion es un bot que juega automáticamente al juego de Blum Crypto en Telegram. El juego consiste en recolectar copos verdes en un tiempo específico sin tocar las bombas y los hielos. El objetivo es crear un ejecutable que pueda jugar al juego de manera efectiva y eficiente.
 
 ## Requisitos del Sistema
 
