@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png](https://github.com/Max-v2/BlumFarm_v2.0/blob/main/Captura%20de%20pantalla%202024-08-31%20143726.png)](https://github.com/Max-v2/BlumFarm_v2.0/blob/main/logo.jpg" width="200"/>
+  <img src="https://github.com/Max-v2/BlumFarm_v2.0/blob/main/logo.jpg" width="200"/>
 </a></p>
 <h1 align="center">BlumFarm_v2.0</h1>
 
