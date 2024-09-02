@@ -1,0 +1,6 @@
+pyscreeze
+pyautogui
+pygetwindow
+pynput
+colorama
+keyboard
