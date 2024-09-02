@@ -1,84 +1,72 @@
 <p align="center">
-  <img src="" width="200"/>
+  <img src="https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png" width="200"/>
 </a></p>
-<h1 align="center">Max-v2</h1>
+<h1 align="center">SocialFish</h1>
 
+Are you looking for SF's mobile controller? [UndeadSec/SocialFishMobile][sf-mobile]
 
+Are you looking for SF's old version(**Ngrok integrated**) ? [UndeadSec/SociaFish/.../sharkNet][sf-sharknet]
 
+#### SETUP AND RUNNING
 
-# BlumFarm
+Visit the [wiki](https://github.com/UndeadSec/SocialFish/wiki) for more details.
 
-Esta aplicion es un bot que juega automáticamente al juego de Blum Crypto en Telegram. El juego consiste en recolectar copos verdes en un tiempo específico sin tocar las bombas y los hielos. El objetivo es crear un ejecutable que pueda jugar al juego de manera efectiva y eficiente.
+Setup instructions [here](https://github.com/UndeadSec/SocialFish/wiki/Setting-Up-SocialFish).
 
-## Requisitos del Sistema
+![Screenshot](https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/screen.png)
 
-- Windows 7 o superior
-- Conexión a Internet para descargar el instalador
+#### MAINTAINERS
 
-## Instalación
+- **Alisson Moretto**, Twitter: [@UndeadSec][tw-alisson], GitHub: [@UndeadSec][git-alisson]
+- **Vandré Augusto**, Twitter: [@dr1nKoRdi3][tw-drink], GitHub: [@dr1nK0Rdi3][git-drink]
 
-Sigue estos pasos para instalar la aplicación BlumFarm:
+#### DOCS
 
-1. **Descargar el Instalador:**
-   Descarga el instalador `BlumFarm_Installer.exe` desde Releases `v2.0`
+- **Fernando Bellincanta**, Twitter: [@ErvalhouS][tw-fernando], GitHub: [@ErvalhouS][git-fernando]
 
-2. **Ejecutar el Instalador:**
-   Haz doble clic en el archivo `BlumFarm_Installer.exe` para iniciar el proceso de instalación.
+### DISCLAIMER
 
-3. **Seguir el Asistente de Instalación:**
-   - Selecciona el idioma de instalación (Inglés o Español).
-   - Lee y acepta los términos y condiciones.
-   - Selecciona la carpeta de destino para la instalación.
-   - Haz clic en "Instalar" para comenzar la instalación.
+TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 
-4. **Finalizar la Instalación:**
-   Una vez completada la instalación, puedes elegir ejecutar la aplicación inmediatamente o cerrar el asistente.
+The use of the SocialFish is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program.
 
-## Uso de la Aplicación
+"DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+Taken from [LICENSE](LICENSE).
 
-1. **Abrir la Aplicación:**
-   Abre la aplicación BlumFarm desde el acceso directo creado en el escritorio o desde el menú de inicio.
+# Build
+## Docker
+> How to run with Docker?
 
-2. **Seleccionar el Idioma:**
-   Al iniciar la aplicación, se te pedirá que selecciones el idioma en el que deseas interactuar:
-   - 1. English
-   - 2. Español
+You need to run:
+```sh
+docker compose up
+```
 
-3. **Ingresar el Nombre de la Ventana:**
-   Ingresa el nombre de la ventana con la que deseas interactuar. Por ejemplo:
-   - Para TelegramDesktop, ingresa `1`.
+# CONTRIBUTING
 
-4. **Automatización:**
-   La aplicación buscará la ventana especificada y te notificará si la encuentra o no:
-   - Si la ventana es encontrada, verás un mensaje de confirmación.
-   - Si la ventana no es encontrada, verás un mensaje de error.
+[![Open Source Helpers](https://www.codetriage.com/undeadsec/socialfish/badges/users.svg)](https://www.codetriage.com/undeadsec/socialfish)
 
-5. **Control de la Automatización:**
-   - Para pausar la interacción, presiona la tecla `q`.
-   - Para continuar, presiona `q` nuevamente.
-   - Para terminar la aplicación, presiona la tecla `x`.
+We encourage you to contribute to SocialFish! Please check out the [Contributing to SocialFish](https://github.com/UndeadSec/SocialFish/blob/master/CONTRIBUTING.md) guide for guidelines about how to proceed. Join us!
 
-## Desinstalación
+# CONTRIBUTOR CODE OF CONDUCT
 
-Para desinstalar la aplicación BlumFarm Automation:
+This project adheres to No Code of Conduct. We are all adults. We accept anyone's contributions. Nothing else matters.
 
-1. **Abrir el Panel de Control:**
-   Ve al Panel de Control de Windows.
+For more information please visit the [No Code of Conduct homepage](https://github.com/domgetter/NCoC).
 
-2. **Seleccionar "Programas y Características":**
-   Haz clic en "Desinstalar un programa" bajo la categoría "Programas".
-
-3. **Seleccionar BlumFarm Automation:**
-   Busca "BlumFarm Automation" en la lista de programas instalados, selecciónalo y haz clic en "Desinstalar".
-
-4. **Seguir el Asistente de Desinstalación:**
-   Sigue las instrucciones del asistente para completar la desinstalación.
-
-## Soporte
-
-Si tienes alguna pregunta o necesitas ayuda, por favor contacta conmigo.
-
-¡Espero que disfrutes BlumFarm!
----
-
-© 2024 Max-v2. Todos los derechos reservados.
+[//]: # 'links references'
+[tw-alisson]: https://twitter.com/UndeadSec
+[git-alisson]: https://github.com/UndeadSec
+[tw-drink]: https://twitter.com/Dr1nkOrdi3
+[git-drink]: https://github.com/dr1nk0rdi3
+[sf-mobile]: https://github.com/UndeadSec/SocialFishMobile
+[git-tiago]: https://github.com/tiagorlampert
+[git-fernando]: https://github.com/ErvalhouS
+[tw-fernando]: https://twitter.com/ErvalhouS
+[sf-sharknet]: https://github.com/UndeadSec/SocialFish/releases/tag/sharkNet
