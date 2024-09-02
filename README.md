@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Max-v2/BlumFarm_v2.0/blob/main/logo.jpg" width="200"/>
+  <img src="" width="200"/>
 </a></p>
 <h1 align="center">BlumFarm_v2.0</h1>
 
