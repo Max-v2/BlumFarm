@@ -1,7 +1,7 @@
 <p align="center">
   <img src="" width="200"/>
 </a></p>
-<h1 align="center">BlumFarm_v2.0</h1>
+<h1 align="center">Max-v2</h1>
 
 
 
