@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/UndeadSec/SocialFishMobile/master/content/logo.png](https://github.com/Max-v2/BlumFarm_v2.0/blob/main/Captura%20de%20pantalla%202024-08-31%20143726.png)" width="200"/>
+</a></p>
+<h1 align="center">BlumFarm_v2.0</h1>
+
+
+
+
 # BlumFarm
 
 Esta aplicion es un bot que juega automáticamente al juego de Blum Crypto en Telegram. El juego consiste en recolectar copos verdes en un tiempo específico sin tocar las bombas y los hielos. El objetivo es crear un ejecutable que pueda jugar al juego de manera efectiva y eficiente.
