@@ -18,7 +18,6 @@ init(autoreset=True)
 mouse = Controller()
 time.sleep(0.5)
 
-# Encabezado estilo Matrix en movimiento con cambio de colores
 def moving_header():
     colors = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
     header = """
@@ -27,12 +26,11 @@ def moving_header():
 ██████╔╝██║     ██║   ██║██╔████╔██║█████╗  ███████║██████╔╝██╔████╔██║
 ██╔══██╗██║     ██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██║██╔══██╗██║╚██╔╝██║
 ██████╔╝███████╗╚██████╔╝██║ ╚═╝ ██║██║     ██║  ██║██║  ██║██║ ╚═╝ ██║
-╚═════╝ ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝                                              
+╚═════╝ ╚══════╝  ╚═╝╚═╝ ╚═╝     ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝     ╚═╝                                         
 """
     footer = """
-Blumfarm
-GitHub: https://github.com/tu_usuario
-© 2023 Derechos Reservados
+Max-v2 © 2024 
+GitHub: https://github.com/Max-v2
 """
     color = colors[int(time.time()) % len(colors)]
     for line in header.splitlines():
