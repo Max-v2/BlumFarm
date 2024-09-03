@@ -1,3 +1,7 @@
+import sys
+import argparse
+import threading
+
 try:
     import pyscreeze
 except ImportError:
@@ -51,10 +55,29 @@ def get_window_by_name(name):
     print(Fore.GREEN + "[✅] | Ventana encontrada - {}\nPresiona 'q' para pausar.".format(name))
     return windows[0]
 
-def main():
+def analyze_screen(window_rect, stop_event):
+    while not stop_event.is_set():
+        scrn = pyautogui.screenshot(region=(window_rect[0], window_rect[1], window_rect[2], window_rect[3]))
+        width, height = scrn.size
+        pixel_found = False
+
+        for x in range(0, width, 10):  # Reducir el paso para una búsqueda más rápida
+            for y in range(0, height, 10):
+                r, g, b = scrn.getpixel((x, y))
+                if (b in range(0, 125)) and (r in range(102, 220)) and (g in range(200, 255)):
+                    screen_x = window_rect[0] + x
+                    screen_y = window_rect[1] + y
+                    click(screen_x + 4, screen_y)
+                    time.sleep(0.001)
+                    pixel_found = True
+                    break
+            if pixel_found:
+                break
+        time.sleep(0.05)  # Añadir un pequeño retraso para reducir la carga en la CPU
+
+def main(window_name):
     while True:
         moving_header()
-        window_name = input("\nIngrese el nombre de la ventana (1 - TelegramDesktop): ")
         if window_name == '1':
             window_name = "TelegramDesktop"
 
@@ -63,23 +86,35 @@ def main():
             continue
 
         paused = False
+        stop_event = threading.Event()
+        window_rect = (
+            telegram_window.left, telegram_window.top, telegram_window.width, telegram_window.height
+        )
+
+        analyze_thread = threading.Thread(target=analyze_screen, args=(window_rect, stop_event))
+        analyze_thread.start()
 
         while True:
             if keyboard.is_pressed('q'):
                 paused = not paused
-                print(Fore.YELLOW + "Pausado\nPresiona 'q' nuevamente para continuar" if paused else Fore.GREEN + "Continuando.")
+                if paused:
+                    stop_event.set()
+                    analyze_thread.join()
+                    print(Fore.YELLOW + "Pausado\nPresiona 'q' nuevamente para continuar")
+                else:
+                    stop_event.clear()
+                    analyze_thread = threading.Thread(target=analyze_screen, args=(window_rect, stop_event))
+                    analyze_thread.start()
                 time.sleep(0.2)
 
             if keyboard.is_pressed('x'):
                 print(Fore.RED + "Saliendo del programa.")
+                stop_event.set()
+                analyze_thread.join()
                 return
 
             if paused:
                 continue
-
-            window_rect = (
-                telegram_window.left, telegram_window.top, telegram_window.width, telegram_window.height
-            )
 
             try:
                 telegram_window.activate()
@@ -87,23 +122,8 @@ def main():
                 telegram_window.minimize()
                 telegram_window.restore()
 
-            scrn = pyautogui.screenshot(region=(window_rect[0], window_rect[1], window_rect[2], window_rect[3]))
-
-            width, height = scrn.size
-            pixel_found = False
-
-            for x in range(0, width, 20):
-                for y in range(0, height, 20):
-                    r, g, b = scrn.getpixel((x, y))
-                    if (b in range(0, 125)) and (r in range(102, 220)) and (g in range(200, 255)):
-                        screen_x = window_rect[0] + x
-                        screen_y = window_rect[1] + y
-                        click(screen_x + 4, screen_y)
-                        time.sleep(0.001)
-                        pixel_found = True
-                        break
-                if pixel_found:
-                    break
-
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='BlumFarm Script')
+    parser.add_argument('window_name', type=str, help='Name of the window to interact with (1 for TelegramDesktop)')
+    args = parser.parse_args()
+    main(args.window_name)
