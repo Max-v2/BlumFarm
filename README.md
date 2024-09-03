@@ -50,7 +50,7 @@ Puedes ingresar 1 para seleccionar "TelegramDesktop" o escribir el nombre de otr
 
 ## **Controles**
 - Presiona ```q``` para pausar o reanudar la aplicación.
-= Presiona ```x``` para salir de la aplicación.
+- Presiona ```x``` para salir de la aplicación.
   
 ## **Soporte**
 Si encuentras algún problema o tienes preguntas, no dudes en contactarnos:
