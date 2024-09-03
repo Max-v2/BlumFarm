@@ -23,7 +23,7 @@ Descarga el instalador de BlumFarm desde la página de releases. [here](https://
 1. Localiza el archivo del instalador descargado (BlumFarm-setup.exe).
 2. Haz doble clic en el archivo del instalador para iniciar el proceso de instalación.
 3. Sigue las instrucciones en pantalla para completar la instalación. 
-4. Preocura elegir el Escritorio para visualizar el programa o buscar la carpeta elegida.
+4. Procura elegir el Escritorio para visualizar el programa o buscar la carpeta elegida.
 
 - Paso 3: Ejecutar la Aplicación
 
