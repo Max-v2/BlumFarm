@@ -29,7 +29,7 @@ Descarga el instalador de BlumFarm desde la página de releases. [here](https://
 
 # **Uso**
 
-##**Selección de Idioma**
+## **Selección de Idioma**
 Cuando ejecutes la aplicación, se te pedirá que selecciones un idioma:
 ```
 Seleccione el idioma:
