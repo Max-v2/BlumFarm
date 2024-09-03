@@ -60,6 +60,6 @@ Si encuentras algún problema o tienes preguntas, no dudes en contactarnos:
 - Instagram: [Max26.uy](https://www.instagram.com/Max26.uy )
 
 ## **Licencia**
-Max-v2 está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](https://github.com/Max-v2/BlumFarm_v2.0/blob/main/LICENSE) para más información.
+BlumFarm está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](https://github.com/Max-v2/BlumFarm_v2.0/blob/main/LICENSE) para más información.
 
 ¡Gracias por usar BlumFarm! Esperamos que te resulte útil y fácil de usar.
