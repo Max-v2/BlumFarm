@@ -46,7 +46,7 @@ A continuación, se te pedirá que ingreses el nombre de la ventana:
 ```
 Ingrese el nombre de la ventana (1 - TelegramDesktop):
 ```
-Puedes ingresar 1 para seleccionar "TelegramDesktop" o escribir el nombre de otra ventana.
+Puedes ingresar 1 para seleccionar "TelegramDesktop" o escribir el nombre de otra ventana, ```Procura tener abierta la ventana de blum abierta ```
 
 ## **Controles**
 - Presiona ```q``` para pausar o reanudar la aplicación.
