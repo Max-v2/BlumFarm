@@ -2,7 +2,6 @@
   <img src="https://github.com/Max-v2/BlumFarm_v2.0/blob/main/Img/Logo.png" width="200"/>  <h1 align="center">Max-v2</h1>
 </p>
 
-<<<<<<< Updated upstream
 # **Guía de Instalación de BlumFarm**
 ¡Bienvenido a la guía de instalación de BlumFarm! Este documento te guiará a través de los pasos necesarios para instalar y ejecutar la aplicación BlumFarm en tu sistema. Sigue las instrucciones cuidadosamente para asegurar un proceso de instalación sin problemas.
 
