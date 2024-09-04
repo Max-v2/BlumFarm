@@ -43,7 +43,7 @@ No se requiere una tarjeta gráfica dedicada, pero una GPU integrada moderna deb
 ## **Instalación**
 
 - **Versiones:**
-1. Para dispositivos con 4 Ram recomendarble descargar la version [v2.3](https://github.com/Max-v2/BlumFarm/releases/tag/v2.3). o usar la version v2.0(https://github.com/Max-v2/BlumFarm/releases/tag/v2.0) dependiendo cual le funciona mejor.
+1. Para dispositivos con 4 Ram recomendarble descargar la version [v2.3](https://github.com/Max-v2/BlumFarm/releases/tag/v2.3). o usar la version [v2.0](https://github.com/Max-v2/BlumFarm/releases/tag/v2.0) dependiendo cual le funciona mejor.
 
 2. Para dispositivos con mas de 4 Ram pueden usar la version [v3.0](https://github.com/Max-v2/BlumFarm/releases/tag/v3.0) con diseño integrado. 
 
