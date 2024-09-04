@@ -125,3 +125,4 @@ while True:
                 time.sleep(0.001)
                 pixel_found = True
                 break
+            
