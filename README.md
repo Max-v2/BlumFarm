@@ -43,6 +43,7 @@ No se requiere una tarjeta gráfica dedicada, pero una GPU integrada moderna deb
 
 - **Versiones:**
 1. Para dispositivos con 4 Ram recomendarble descargar la version [v2.3](https://github.com/Max-v2/BlumFarm/releases/tag/v2.3).
+ [![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=configuroweb)
 2. Para dispositivos con mas de 4 Ram pueden usar la version [v3.0](https://github.com/Max-v2/BlumFarm/releases/tag/v3.0) con diseño integrado.
 
 - **Paso 1: Descargar el Instalador**
