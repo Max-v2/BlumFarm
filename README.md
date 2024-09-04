@@ -43,12 +43,9 @@ No se requiere una tarjeta gráfica dedicada, pero una GPU integrada moderna deb
 ## **Instalación**
 
 - **Versiones:**
-1. Para dispositivos con 4 Ram recomendarble descargar la version [v2.3](https://github.com/Max-v2/BlumFarm/releases/tag/v2.3).
- <video width="640" height="360" controls>
-  <source src="https://github.com/Max-v2/BlumFarm/blob/main/video/3.0.mp4" type="video/mp4">
-  <p>Tu navegador no admite la etiqueta de video.</p>
-</video>
-2. Para dispositivos con mas de 4 Ram pueden usar la version [v3.0](https://github.com/Max-v2/BlumFarm/releases/tag/v3.0) con diseño integrado. [![Turorial](/video/3.0.mp4)]
+1. Para dispositivos con 4 Ram recomendarble descargar la version [v2.3](https://github.com/Max-v2/BlumFarm/releases/tag/v2.3). 
+
+2. Para dispositivos con mas de 4 Ram pueden usar la version [v3.0](https://github.com/Max-v2/BlumFarm/releases/tag/v3.0) con diseño integrado. 
 
 - **Paso 1: Descargar el Instalador**
 Descarga el instalador de BlumFarm desde la página de releases. [releases](https://github.com/Max-v2/BlumFarm_v2.0/releases) o en el apartado de versiones.
